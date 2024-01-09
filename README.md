@@ -1,6 +1,6 @@
 # Similarity_Measure
 
-This is an assesment for Fetch Rewards, which calculates the similarity between two sentences. Change `text_1`, `text_2`, `text_3` if you want to calculate similarity between other some other sentence.  
+This is an assessment for Fetch Rewards, which calculates the similarity between two sentences. Change `text_1`, `text_2`, and `text_3` if you want to calculate the similarity between other some other sentences.  
 
 ### Punctuation and stop words
 
@@ -15,11 +15,11 @@ The ordering of words does matter when calculating similarity and it can be impl
 
 ### Metric to calculate similarity
 
-The similarity measure is calculated using the cosine simimalrity `$Cos(\theta) = \frac{A•B}{||A||*||B||}$`. Here, A and B are two vectors, so we need to convert the input text to vectors. It handles sparse data and also is not affected by the magnitude of the vectors.
+The similarity measure is calculated using the cosine simimalrity $Cos(\theta) = \frac{A•B}{||A||*||B||}$. Here, A and B are two vectors, so we need to convert the input text to vectors. It handles sparse data and also is not affected by the magnitude of the vectors.
 
 ### Data Structures to be used
 
-The most common and efficient data structure used as the hash map or dictionary. It stores the frequency of the words so that retrieval is only O(1) when calculating the tf-idf and similarity.
+The most common and efficient data structure used is the hash map or dictionary. It stores the frequency of the words so that retrieval is only O(1) when calculating the tf-idf and similarity.
 
 
 
