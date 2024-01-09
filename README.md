@@ -21,6 +21,6 @@ The similarity measure is calculated using the cosine simimalrity $Cos(\theta) =
 
 The most common and efficient data structure used is the hash map or dictionary. It stores the frequency of the words so that retrieval is only O(1) when calculating the tf-idf and similarity.
 
-#Instructions to run
+# Instructions to run
 
 The `similarity_measure.ipynb` has a Google Colab Notebook link. It has the texts, just need to select `Rull all` from the `Runtime` tab.
